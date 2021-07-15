@@ -1,0 +1,64 @@
+.page-header {
+    padding-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-weight: 600;
+}
+
+.contact-info {
+    padding: 3rem 0;
+}
+
+.fas {
+    color: rgb(55,79,117);
+}
+
+.company-name, .contact, .work-hours {
+    margin: 3rem 0;
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 0.3rem;
+}
+
+.card {
+    background-color: rgb(55,79,117);
+}
+
+.form .card-body {
+    padding: 2rem;
+}
+
+.form .card-body h3 {
+    color: #fff;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+}
+
+.form .btn-outline-light {
+    background-color: rgb(220,53,69);
+    font-size: 1rem;
+    color: #fff;
+    border-color: rgb(220,53,69);
+}
+
+.form .btn-outline-light:hover {
+    color: rgb(55,79,117);
+    border-color: rgb(55,79,117);
+    background-color: #fff;
+}
+
+.form .form-group {
+    margin: 1.2rem 0;
+}
+
+@media (max-width: 767.98px) {
+    .page-header img {
+        margin-top: 1rem;
+    }
+}

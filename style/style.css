@@ -1,0 +1,401 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    overflow: unset;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar .avatar {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.navbar .register {
+    margin-left: 0.7rem;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#logo-blue {
+    -webkit-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+}
+
+.navbar-nav {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-link {
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+}
+
+.register {
+    margin-right: 0.2em;
+}
+
+.gradient-red {
+    background: rgb(220,53,69);
+    background: linear-gradient(180deg, rgba(220,53,69,1) 0%, rgba(220,53,69,1) 55%, rgba(215,67,81,1) 100%);
+}
+
+.gradient-blue {
+    background: rgb(55,79,117);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,79,117,1)), color-stop(55%, rgba(55,79,117,1)), to(rgba(55,79,117,1)));
+    background: -o-linear-gradient(top, rgba(55,79,117,1) 0%, rgba(55,79,117,1) 55%, rgba(55,79,117,1) 100%);
+    background: linear-gradient(180deg, rgba(55,79,117,1) 0%, rgba(55,79,117,1) 55%, rgba(55,79,117,1) 100%);
+}
+
+.page-header {
+    font-size: 1.25rem;
+    color: #fff;
+    padding-top: 9rem;
+}
+
+.page-header h1 {
+    font-size: 2.75rem;
+}
+
+.page-header p {
+    margin: 16px 0 20px 0;
+}
+
+.btn-outline-light {
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+}
+
+.about .icon img {
+    vertical-align: middle;
+    max-width: 140px;
+    width: 100%;
+    max-height: 140px;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.download {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.header-wave {
+    -webkit-animation: wave linear 60s infinite;
+    animation: wave linear 60s infinite;
+}
+
+.top-wave-download, .top-wave-how-it-works {
+    -webkit-animation: top-wave linear 60s infinite;
+    animation: top-wave linear 60s infinite;
+}
+
+.bottom-wave-download, .bottom-wave-how-it-works {
+    -webkit-animation: bottom-wave linear 60s infinite;
+    animation: bottom-wave linear 60s infinite;
+}
+
+.download-btn {
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+}
+
+.download-btn:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.companies h1 {
+    padding-bottom: 3rem;
+}
+
+.how-it-works h1 {
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+.how-it-works .card {
+    -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.how-it-works .card-title {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.how-it-works .card-text {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.testimonials .carousel-inner .col-md-6 {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.testimonials .card {
+    background-color: rgb(55,79,117);
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 20px rgba(0,0,0, 0.5);
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.5);    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.testimonials .card .card-img-top {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    -webkit-box-shadow: 5px 5px 20px rgba(0,0,0, 0.5);
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.5);    width: 100px;
+    height: 100px;
+}
+
+.testimonials .card h5 {
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+.testimonials .card h5 span {
+    font-size: 18px;
+    color: #7B91BB;
+}
+
+.testimonials .card p {
+    font-size: 18px;
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    margin: 0.7rem 0;
+}
+
+.testimonials h1 {
+    padding-bottom: 3rem;
+}
+
+.testimonials h2 {
+    padding-bottom: 0.75rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(55,79,117) !important;
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.try-it {
+    color: #fff;
+    padding-bottom: 5rem;
+}
+
+.progress-bar {
+    background-color: rgb(55,79,117);
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    background-color: #374F75;
+}
+
+.links {
+    background-color: #404756;
+    padding: 1rem;
+}
+
+.links ul {
+    padding: 0;
+    margin: 0
+}
+
+.links ul a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.links ul a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.links li {
+    list-style: none;
+    display: inline;
+    padding: 0 0.8rem;
+}
+
+.links li:first-child {
+    border-right: 1px solid #fff;
+}
+
+@media (max-width: 767.98px) {
+
+    .about, .download, .companies, .how-it-works, .testimonials, .try-it {
+        margin: 6rem 0;
+    }
+
+    .how-it-works .card-title {
+        font-size: 0.9rem;
+    }
+    
+    .how-it-works .card-text {
+        font-size: 0.7rem;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .try-it img {
+        margin-top: 1rem;
+    }
+
+    .container {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .page-header h1 {
+        font-size: 2.3rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .page-header img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .download p {
+        font-size: 1rem;
+    }
+}
+
+@-webkit-keyframes wave {
+    0% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    25% {
+        d: path("M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,192C672,213,768,171,864,149.3C960,128,1056,128,1152,106.7C1248,85,1344,43,1392,21.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    50% {
+        d: path("M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,122.7C672,107,768,85,864,112C960,139,1056,213,1152,213.3C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    75% {
+        d: path("M0,0L48,37.3C96,75,192,149,288,154.7C384,160,480,96,576,74.7C672,53,768,75,864,106.7C960,139,1056,181,1152,181.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    100% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+}
+
+@keyframes wave {
+    0% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    25% {
+        d: path("M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,192C672,213,768,171,864,149.3C960,128,1056,128,1152,106.7C1248,85,1344,43,1392,21.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    50% {
+        d: path("M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,122.7C672,107,768,85,864,112C960,139,1056,213,1152,213.3C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    75% {
+        d: path("M0,0L48,37.3C96,75,192,149,288,154.7C384,160,480,96,576,74.7C672,53,768,75,864,106.7C960,139,1056,181,1152,181.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+
+    100% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+}
+
+@-webkit-keyframes top-wave {
+    0% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z");
+    }
+    50% {
+        d: path("M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,208C672,213,768,171,864,133.3C960,96,1056,64,1152,58.7C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z");
+    }
+    100% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z")
+    }
+}
+
+@keyframes top-wave {
+    0% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z");
+    }
+    50% {
+        d: path("M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,208C672,213,768,171,864,133.3C960,96,1056,64,1152,58.7C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z");
+    }
+    100% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z")
+    }
+}
+
+@-webkit-keyframes bottom-wave {
+    0% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+    50% {
+        d: path("M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,208C672,213,768,171,864,133.3C960,96,1056,64,1152,58.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+    100% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+}
+
+@keyframes bottom-wave {
+    0% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+    50% {
+        d: path("M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,208C672,213,768,171,864,133.3C960,96,1056,64,1152,58.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+    100% {
+        d: path("M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,101.3C672,96,768,128,864,138.7C960,149,1056,139,1152,117.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z");
+    }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../style/style.css" rel="stylesheet">
+    <link href="../style/lekcje.css" rel="stylesheet">
+    <link href="../style/lekcja.css" rel="stylesheet">
+    <link rel="icon" href="../img/title_logo.png" type="image/icon type">
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous">
+    </script>
+
+    <title>A1 - Eigo - platforma do nauki języka angielskiego</title>
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand" href="../index-zalogowany.html">
+                <img id="logo" src="../img/logo-blue.png"/>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between ms-5" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="../lekcje.html">Lekcje</a>
+                    <a class="nav-item nav-link me-5" href="../kontakt-zalogowany.html">Kontakt</a>
+                </div>
+
+                <div class="navbar-nav">
+                    <div class="nav-item dropdown">
+                            <a href="#" class="nav-item nav-link dropdown-toggle" aria-expanded="false" id="dropdownMenu2" data-bs-toggle="dropdown"><img src="../img/avatar.svg" class="avatar" alt="avatar"> Użytkownik</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a href="../profil.html" class="dropdown-item">
+                                    <i class="fa fa-user-o"></i> Profil
+                                </a>
+                                <div class="divider dropdown-divider"></div>
+                                <a href="../index.html" class="dropdown-item">
+                                    <i class="fas fa-sign-out-alt"></i> Wyloguj
+                                </a>
+                            </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </nav>
+
+    <section class="lesson">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="card-top d-flex align-items-center">
+              <a href="../lekcje-a1-1.html"><i class="fas fa-arrow-left"></i></a>
+              <div class="card-body">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-body text-center">
+              <h2 class="lesson-exerc">Wskaż przywitanie, które słyszysz</h2>
+                <div class="row text-start px-5">
+
+                  <div class="col-md-13">
+                    <h3>1. <a onclick="playAudio('../sounds/hello.mp3')"><i class="fas fa-volume-up speaker"></i></a></h3>
+                      <form id="ex-1" onsubmit="return false">
+                        <div class="radiobox-box">
+                          <input type="radio" id="hello-1" name="exercise-1" value="hello" required>
+                          <label for="hello-1">Hello</label>
+                        </div>
+                        <div class="radiobox-box">
+                          <input type="radio" id="hi-1" name="exercise-1" value="hi" required>
+                          <label for="hi-1">Hi</label>
+                        </div>
+
+                      <h3>2. <a onclick="playAudio('../sounds/hi.mp3')"><i class="fas fa-volume-up speaker"></i></a></h3>
+                        <div class="radiobox-box">
+                          <input type="radio" id="hi-2" name="exercise-2" value="hi" required>
+                          <label for="hi-2">Hi</label>
+                        </div>
+                        <div class="radiobox-box">
+                          <input type="radio" id="hello-2" name="exercise-2" value="hello" required>
+                          <label for="hello-2">Hello</label>
+                        </div>
+
+                      <h3>3. <a onclick="playAudio('../sounds/good-morning.mp3')"><i class="fas fa-volume-up speaker"></i></a></h3>
+                          <div class="radiobox-box">
+                            <input type="radio" id="gm-1" name="exercise-3" value="good-morning" required>
+                            <label for="gm-1">Good morning</label>
+                          </div>
+                          <div class="radiobox-box">
+                            <input type="radio" id="ga-1" name="exercise-3" value="good-afternoon" required>
+                            <label for="ga-1">Good afternoon</label>
+                          </div>
+
+                      <h3>4. <a onclick="playAudio('../sounds/good-evening.mp3')"><i class="fas fa-volume-up speaker"></i></a></h3>
+                              <div class="radiobox-box">
+                                <input type="radio" id="ge-1" name="exercise-4" value="good-evening" required>
+                                <label for="ge-1">Good evening</label>
+                              </div>
+                              <div class="radiobox-box">
+                              <input type="radio" id="ga-2" name="exercise-4" value="good-afternoon" required>
+                              <label for="ga-2">Good afternoon</label>
+                            </div>
+
+                      <h3>5. <a onclick="playAudio('../sounds/good-afternoon.mp3')"><i class="fas fa-volume-up speaker"></i></a></h3>
+                              <div class="radiobox-box">
+                                <input type="radio" id="ga-3" name="exercise-5" value="good-afternoon" required>
+                                <label for="ga-3">Good afternoon</label>
+                              </div>
+                              <div class="radiobox-box">
+                                <input type="radio" id="gm-2" name="exercise-5" value="good-morning" required>
+                                <label for="gm-2">Good morning</label>
+                              </div>
+                              <div class="text-center">
+                              <input class="btn btn-outline-light btn-lg" type="submit" value="Sprawdź" onclick="showResults(this.form)">
+                              </div>
+                        </form>
+                        <div class="text-center hidden">
+                        <a href="#" type="button" class="btn btn-outline-light btn-lg">Następna lekcja</a>
+                        </div>
+                  </div>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-center text-white">
+        <section class="links">
+            <ul>
+                <li><a href="../kurs-angielskiego-zalogowany.html">Kurs angielskiego</a></li>
+                <li><a href="../cennik-zalogowany.html">Cennik</a></li>
+            </ul>
+        </section>
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/?lang=pl" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" role="button"
+            ><i class="fab fa-youtube"></i
+            ></a>
+
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright: Dawid Malec
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/bootstrap.min.js" defer></script>
+    <script src="../js/sound.js"></script>
+</body>
+</html>

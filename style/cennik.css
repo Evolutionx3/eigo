@@ -1,0 +1,106 @@
+.pricing {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    background: rgb(55,79,117);
+    color: #fff;
+}
+
+.pricing a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+
+.pricing a:hover {
+    color: rgba(255, 255,255, 0.9);
+}
+
+.pricing h1 {
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.pricing .card {
+    color: #000;
+}
+
+.pricing-cards {
+    margin-top: -6rem;
+    padding-bottom: 9rem;
+}
+
+.pricing-cards .btn-outline-primary {
+    color: rgb(55,79,117);
+    border-color: rgb(55,79,117);
+}
+
+.pricing-cards .btn-outline-primary:hover {
+    background-color: rgb(55,79,117);
+    color: #fff;
+}
+
+.products {
+    padding-bottom: 9rem;
+}
+
+.products .icon img {
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    margin: 2rem 0;
+}
+
+.for-companies {
+    background-color: #2d323c;
+    color: white;
+    padding: 6rem 0;
+}
+
+.for-companies h1, h4 {
+    margin-bottom: 1.5rem;
+}
+
+.for-companies .btn-outline-primary {
+    color: white;
+    border-color: white;
+}
+
+.for-companies .btn-outline-primary:hover {
+    background-color: white;
+    color: rgb(55,79,117);
+}
+
+.faq {
+    padding: 6rem 0;
+}
+
+.faq h1 {
+    margin-bottom: 3rem;
+}
+
+.accordion-button:focus {
+    border-color: rgb(55,79,117) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(55,79,117);
+    color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    
+    .pricing-cards {
+        padding-bottom: 6rem;
+    }
+
+    .pricing-cards .row>* {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .pricing-cards .col-md-4 {
+        margin: 1.25rem 0;
+    }
+}

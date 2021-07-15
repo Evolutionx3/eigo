@@ -1,0 +1,18 @@
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.next-lvl {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.progress {
+    height: 15px;
+}
+
+.card-body, .d-flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}

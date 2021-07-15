@@ -1,0 +1,105 @@
+.fa-arrow-left {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.progress {
+    height: 1rem;
+}
+
+.fa-volume-up {
+    margin: 0 0.3rem;
+}
+
+.lesson .col-md-12 {
+    background-color: #fff;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-body h1 {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body h1 {
+    color: rgb(55,79,117);
+}
+
+.card-body .lesson-desc {
+    padding-top: 1rem;
+    margin: 1rem 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h2 {
+    margin: 1.5rem 0;
+}
+
+.lesson-exerc {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.speaker {
+    font-size: 1.5rem;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.speaker:hover {
+    color: rgb(55,79,117);
+}
+
+.radiobox-box {
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 1.5rem 3rem;
+    margin: 2rem 0;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.radiobox-box:hover {
+    background-color: #f7f7f7;
+}
+
+.correct-answer {
+    color: #4BB543;
+    font-weight: bold;
+}
+
+.wrong-answer {
+    color: red;
+    font-weight: bold;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+@media (max-width: 767.98px) {
+    .lesson img {
+        width: 50%;
+    }
+}

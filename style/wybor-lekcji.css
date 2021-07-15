@@ -1,0 +1,84 @@
+.lessons {
+    padding: 6rem 0;
+}
+
+.lessonHeader {
+    margin: 0.8rem 0;
+}
+
+.lessonHeader a {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.lessonHeader a:hover {
+    color: rgb(55,79,117);
+}
+
+.lessonTitleBox {
+    margin: 0 0.8rem;
+    font-size: 1.3rem;
+}
+
+.fa-arrow-left {
+    font-size: 1.3rem;
+}
+
+.leftArrowIcon, .rightArrowIcon {
+    margin: 0 0.6rem;
+    font-size: 2rem;
+}
+
+.leftArrowIcon.disabled, .rightArrowIcon.disabled {
+    color: rgba(0,0,0,0.2);
+    cursor: default !important;
+}
+
+.linkToLesson:hover .rightArrowIconCard {
+    -webkit-animation: arrow 2.5s infinite;
+    animation: arrow 2.5s infinite;
+}
+
+.card {
+    margin: 1rem 0;
+}
+
+.card-text {
+    color: rgb(55,79,117);
+    margin: 0;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.rightArrowIconCard {
+    font-size: 1.5rem;
+}
+
+@-webkit-keyframes arrow {
+    0%, 100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%)
+    }
+    50% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%)
+    }
+}
+
+@keyframes arrow {
+    0%, 100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%)
+    }
+    50% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%)
+    }
+}

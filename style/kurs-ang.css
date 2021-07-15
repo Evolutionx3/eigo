@@ -1,0 +1,86 @@
+.page-header {
+    padding-bottom: 6rem;
+}
+
+.left-column h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.right-column h4, p {
+    font-weight: 400;
+}
+
+.right-column h4 {
+    font-size: 1.5rem;
+}
+
+.svg-inside {
+    margin-top: 6rem;
+    padding: 3rem 0;
+    background-color: #596F97;
+    border-radius: 20px;
+}
+
+.components {
+    padding: 6rem 0;
+    color: #fff;
+    background-color: #2d323c;
+}
+
+.components .desc-text {
+    margin-bottom: 4rem;
+}
+
+.repeats {
+    background-color: #404756;
+    color: white;
+}
+
+.repeats .desc-down {
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+}
+
+.skills {
+    background-color: #f7f7f7;
+    padding: 6rem 0;
+}
+
+.skills .icon img {
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    margin: 2rem 0;
+}
+
+.try-it {
+    padding: 6rem 0;
+}
+
+@media (max-width: 767.98px) {
+    .page-header a {
+        margin: 1.25rem 0;
+    }
+
+    .svg-inside {
+        margin-top: 3rem;
+    }
+
+    .page-header img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .components img {
+        margin-top: 2rem;
+    }
+
+    .repeats .desc-down {
+        padding-top: 6rem;
+    }
+
+    .repeats img {
+        margin-bottom: 2rem;
+    }
+}
